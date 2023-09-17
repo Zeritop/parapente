@@ -26,6 +26,7 @@ const ComoLlegar = () => {
                 src={'/images/como_llegar.png'}
                 width={1000}
                 height={350}
+                alt=""
             />
         </div>
     </div>

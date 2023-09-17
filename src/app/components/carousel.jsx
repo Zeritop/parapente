@@ -48,7 +48,7 @@ export const CarouselComp = () => {
         {
             imgs.map( ({source}) => (
                 <div>
-                    <img src={source} className='img-carousel'/>
+                    <img src={source} className='img-carousel' alt=''/>
                 </div>
             ))
         }

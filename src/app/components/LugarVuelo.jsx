@@ -17,6 +17,7 @@ const LugarVuelo = () => {
                 src={'/images/lugar_vuelo.png'}
                 width={1000}
                 height={400}
+                alt=''
             />
         </div>
     </div>

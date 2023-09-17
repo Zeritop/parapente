@@ -11,6 +11,7 @@ const Tarifas = () => {
             src={'/images/tarifas.png'}
             width={1000}
             height={600}
+            alt=''
         />
         <div className='containerVideoTarifas'>
             <ReactPlayer url={'/videos/Opción gopro.MP4'} controls width='100%' />
@@ -22,6 +23,7 @@ const Tarifas = () => {
             src={'/images/vuelos_especiales.png'}
             width={1000}
             height={600}
+            alt=''
         />
     </div>
   )

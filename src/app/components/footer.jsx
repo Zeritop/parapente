@@ -25,6 +25,7 @@ const footer = () => {
                         src={'/images/instagram.png'}
                         width={50}
                         height={50}
+                        alt=''
                     />          
                 </Link>
             </div>
@@ -34,6 +35,7 @@ const footer = () => {
                         src={'/images/whatsapp.png'}
                         width={50}
                         height={50}
+                        alt=''
                     />          
                 </Link>
             </div>
