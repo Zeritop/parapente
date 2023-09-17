@@ -6,5 +6,5 @@
 /    /instagram    302
 /    /whatsapp    302    
 # Redirect with a 302
-/instagram  /              302
-/whatsapp  /              302
+/instagram  https://www.instagram.com/parapentecordillera.cl/              302
+/whatsapp  https://wa.me/56975215777               302
