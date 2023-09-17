@@ -1,14 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const MiniGalerry = () => {
   return (
     <div className='container-mini-gallery'>
         <h2>Galería de Fotos</h2>
         <div className='mini-gallery'>
-            <img src="/images/IMG_003.JPG" alt="" />
-            <img src="/images/IMG_007.JPG" alt="" />
-            <img src="/images/IMG_008.JPG" alt="" />
+            <Image src="/images/IMG_003.JPG" alt="" />
+            <Image src="/images/IMG_007.JPG" alt="" />
+            <Image src="/images/IMG_008.JPG" alt="" />
         </div>
         <video width="500" height="400" poster='/images/thumbnail.png' controls>
             <source src='/images/1ocomercial.webm' type='video/webm' />

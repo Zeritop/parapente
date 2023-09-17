@@ -1,5 +1,6 @@
 import React from 'react'
 import { Dancing_Script, Gluten } from 'next/font/google'
+import Image from 'next/image'
 
 const dancingScript = Dancing_Script({
     weight: ['400'],
@@ -15,7 +16,7 @@ export const MainBanner = () => {
   return (
     <div className="trapecio-l">
         <div className='inside-triangulo_img'>
-            <img src="/images/IMG_001-removebg.png" alt="" />
+            <Image src="/images/IMG_001-removebg.png" alt="" />
         </div>
         <div className='inside-triangulo_texto'>
             <h1 className={gluten.className}>
