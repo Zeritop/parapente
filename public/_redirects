@@ -5,4 +5,6 @@
 /portafolio-videos
 /    /instagram    302
 /    /whatsapp    302    
-http://parapentecordillera.cl/* https://parapentecordillera.cl/instagram https://parapentecordillera.cl/whatsapp 301
+# Redirect with a 302
+/instagram  /              302
+/whatsapp  /              302
