@@ -1,4 +1,21 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    async redirects() {
+        return [
+        {
+            source: '/instagram',
+            destination: 'https://www.instagram.com/parapentecordillera.cl/',
+            permanent: false,
+            basePath: false
+        },
+        {
+            source: '/whatsapp',
+            destination: 'https://wa.me/56975215777 ',
+            permanent: false,
+            basePath: false
+        },
+    ]
+  }
+}
 
 module.exports = nextConfig
