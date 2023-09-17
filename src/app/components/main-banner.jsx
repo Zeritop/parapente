@@ -1,10 +1,5 @@
 import React from 'react'
-import { Phudu, Dancing_Script, Gluten } from 'next/font/google'
-
-const phudu = Phudu({
-    weight: ['400'],
-    subsets: ['latin']
-})
+import { Dancing_Script, Gluten } from 'next/font/google'
 
 const dancingScript = Dancing_Script({
     weight: ['400'],
