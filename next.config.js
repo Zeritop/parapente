@@ -14,6 +14,12 @@ const nextConfig = {
             permanent: false,
             basePath: false
         },
+        {
+            source: '/facebook',
+            destination: 'https://www.facebook.com/profile.php?id=100094284862217',
+            permanent: false,
+            basePath: false
+        }
     ]
   }
 }

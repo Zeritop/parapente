@@ -16,13 +16,13 @@ export const MainBanner = () => {
   return (
     <div className="trapecio-l">
         <div className='inside-triangulo_img'>
-            <Image src="/images/IMG_001-removebg.png" alt="" />
+            <Image src="/images/background_portada.png" alt="" width={1000} height={10}/>
         </div>
         <div className='inside-triangulo_texto'>
             <h1 className={gluten.className}>
                 Parapente Cordillera
             </h1>
-            <h4 className={dancingScript.className}>Vive una experiencia inolvidable!!</h4>
+            <h4 className={gluten.className} >Vive una experiencia inolvidable!!</h4>
         </div>
     </div>
   )

@@ -5,11 +5,11 @@ import Image from 'next/image'
 const MiniGalerry = () => {
   return (
     <div className='container-mini-gallery'>
-        <h2>Galería de Fotos</h2>
+        <h2>Galería de Fotos y videos</h2>
         <div className='mini-gallery'>
-            <Image src="/images/IMG_003.JPG" alt="" />
-            <Image src="/images/IMG_007.JPG" alt="" />
-            <Image src="/images/IMG_008.JPG" alt="" />
+            <Image src="/images/IMG_003.JPG" alt="" width={300} height={300} />
+            <Image src="/images/IMG_007.JPG" alt="" width={300} height={300} />
+            <Image src="/images/IMG_008.JPG" alt="" width={300} height={300} />
         </div>
         <video width="500" height="400" poster='/images/thumbnail.png' controls>
             <source src='/images/1ocomercial.webm' type='video/webm' />

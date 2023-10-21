@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 
 const Tarifas = () => {
   return (
-    <div className='container_tarifas'>
+    <div className='container_tarifas' id='tarifas'>
         <h2 style={{textAlign: 'center', fontSize: '40px'}}>Tarifas producto - paquetes</h2>
         <Image
             src={'/images/tarifas.png'}
@@ -20,7 +20,7 @@ const Tarifas = () => {
         <br />
         <h2 style={{textAlign: 'center', fontSize: '40px', marginTop: '1%', marginBottom: '1%'}}>Vuelos Especiales</h2>
         <Image
-            src={'/images/vuelos_especiales.png'}
+            src={'/images/vuelos_esp.png'}
             width={1000}
             height={600}
             alt=''

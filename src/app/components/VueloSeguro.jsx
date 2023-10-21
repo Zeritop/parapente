@@ -1,9 +1,10 @@
 import React from 'react'
+import Link from 'next/link'
 
 const VueloSeguro = () => {
   return (
     <div style={{width: '100%'}}>
-        <h2 style={{textAlign: 'center', fontSize: '40px'}}>VueloSeguro</h2>
+        <h2 style={{textAlign: 'center', fontSize: '40px'}}>Vuelo Seguro</h2>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', justifyContent: 'center'}}>
             <p style={{width: '80%', marginBottom: '5%'}}>En materia de seguridad, PARAPENTE CORDILLERA cuenta con asesoría permanente en Prevención de Riesgos. Considerando en esta materia, los aspectos  antes, durante y después del vuelo.
             </p>
@@ -28,6 +29,7 @@ const VueloSeguro = () => {
                 <li style={{fontSize: '20px'}}>Se verifica el estado del pasajero y se realizan las últimas fotos y videos acordados con anterioridad.</li>
                 <li style={{fontSize: '20px'}}>Se verifica el estado del equipo, estructura alar, líneas de suspensión, silla de pasajero y paracaídas de reserva.</li>
             </ul>
+            <Link className='goTarifas' href="#tarifas">Ver Tarifas</Link>
         </div> 
     </div>
   )

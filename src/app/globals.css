@@ -3,6 +3,29 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.goTarifas {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #008CBA;
+}
+
+.goTarifas:hover {
+  color: white;
+  background-color: #008CBA;
+}
 
 .main-nav{
   background-color: #75c7ff;
@@ -41,8 +64,8 @@
 
 .inside-triangulo_img > img {
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  height: 80vh;
+  object-fit: contain;
 }
 
 .inside-triangulo_texto{
@@ -90,7 +113,7 @@
 .container-mision-vision {
   margin-top: 25vh;
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background-image: url('/images/IMG_009.JPG');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -108,16 +131,13 @@
   text-transform: uppercase;
   width: 80%;
   color: #fff;
-  font-size: 70px;
-  /* margin-bottom: 50px; */
-  margin-top: 13%;
-  margin-left: 13%;
-  /* border-bottom: 5px dashed black; */
+  font-size: 40px;
+  text-align: center;
 }
 
 .container-mision-vision > h4 {
   position: relative;
-  top: 25%;
+  /* top: 25%; */
   text-transform: uppercase;
   color: #000;
   font-size: 20px;
@@ -185,7 +205,7 @@
 
 .container-mini-gallery > h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 4%;
 }
 
@@ -241,7 +261,7 @@
 .container_profile > p {
   width: 50%;
   margin-left: 5%;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .profile_title {
@@ -252,21 +272,21 @@
 }
 
 .container_tarifas {
-  margin-top: 6%;
+  margin-top: 16%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .containerComoLlegar {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center
 }
 
 .containerComoLlegar > h2 {
   text-align: center;
-  font-size: 40px; 
+  font-size: 40px;
   margin-bottom: 1%;
 }
 
@@ -283,6 +303,15 @@
 .imgLugarDelVuelo {
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+
+.imgComoLlegar {
+  position: relative;
+  width: 100%;
+  height: 60%;
 }
 
 .footer {
@@ -290,6 +319,10 @@
   color: #fff;
   display: flex;
   justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .footerTitulo {
@@ -303,12 +336,12 @@
 }
 
 .footerTitleCamp {
-  padding-top: 1%; 
+  padding-top: 1%;
   font-size: 20px;
 }
 
 .footerHr {
-  border: 1px solid black; 
+  border: 1px solid black;
   margin-top: 1%;
 }
 
@@ -325,6 +358,16 @@
   display: flex;
   justify-content: center;
   gap: 5%;
+}
+
+.slogan{
+  width: 100%;
+  height: 4%;
+  background-color: #008CBA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 @media only screen and (max-width: 600px) {
@@ -344,12 +387,12 @@
   .container-mision-vision {
     padding-top: 5%;
   }
-  .container-mision-vision > h2 { 
+  .container-mision-vision > h2 {
     font-size: 40px;
   }
 
   .container-mision-vision > h4 {
-    height: 100%;
+    /* height: 100%; */
     width: 90%;
     font-size: 14px;
   }
@@ -358,7 +401,7 @@
     margin-top: 50%;
   }
   .vuelo-parapente > ul,p {
-    font-size: 17px;
+    font-size: 12px;
   }
 
   .vuelo-parapente > h2 {
@@ -394,7 +437,7 @@
     font-size: 15px;
   }
 
-  .containerComoLlegar > img {
+  .imgComoLlegar {
    display: none;
   }
 
@@ -412,7 +455,7 @@
   }
 
   .textoLugarVuelo {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .video_container {
@@ -421,6 +464,7 @@
 
   .footer {
     flex-direction: column;
+    position: relative;
   }
 
   .footerTitulo > h4 {
@@ -457,12 +501,12 @@
   .container-mision-vision {
     padding-top: 5%;
   }
-  .container-mision-vision > h2 { 
+  .container-mision-vision > h2 {
     font-size: 40px;
   }
 
   .container-mision-vision > h4 {
-    height: 100%;
+    /* height: 100%; */
     width: 90%;
     font-size: 20px;
   }
@@ -484,7 +528,7 @@
     font-size: 40px;
   }
 
-  .containerComoLlegar > img {
+  .imgComoLlegar {
     display: none;
    }
 
@@ -495,19 +539,40 @@
   .imgLugarDelVuelo {
     display: none;
   }
+  .footer {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .footerTitulo > h4 {
+    width: 100%;
+    text-align: center;
+  }
+  .footerComoLlegar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerTitleCamp{
+    text-align: center;
+  }
+  .footerHr {
+    width: 80%!important;
+    margin-left: 10%;
+  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1024px){
   .container-mision-vision {
     padding-top: 5%;
   }
-  .container-mision-vision > h2 { 
+  .container-mision-vision > h2 {
     font-size: 40px;
   }
 
   .container-mision-vision > h4 {
-    height: 100%;
-    width: 90%;
+    /* height: 100%; */
+    /* width: 90%; */
     font-size: 20px;
   }
 
@@ -520,7 +585,7 @@
     width: 90%;
   }
 
-  .containerComoLlegar > img {
+  .imgComoLlegar {
     display: none;
    }
 
