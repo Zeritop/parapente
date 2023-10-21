@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 const VueloSeguro = () => {
   return (
@@ -29,7 +28,7 @@ const VueloSeguro = () => {
                 <li style={{fontSize: '20px'}}>Se verifica el estado del pasajero y se realizan las últimas fotos y videos acordados con anterioridad.</li>
                 <li style={{fontSize: '20px'}}>Se verifica el estado del equipo, estructura alar, líneas de suspensión, silla de pasajero y paracaídas de reserva.</li>
             </ul>
-            <Link className='goTarifas' href="#tarifas">Ver Tarifas</Link>
+            <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
         </div> 
     </div>
   )

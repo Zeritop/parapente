@@ -9,7 +9,7 @@ const footer = () => {
             <h4>Parapente Cordillera</h4>
         </div>
         <div className='footerTitleCamp'>
-            Como Llegar
+            Cómo Llegar
             <hr className='footerHr' style={{width: '30%'}} />
             <div style={{marginTop: '2%'}}>
                 <p className='footerComoLlegar'>Camino El Volcán (ruta G-25) 07820 </p>
@@ -26,7 +26,7 @@ const footer = () => {
             </div>
         </div>
         <div className='footerTitleCamp'>
-            Contacto
+            RRSS
             <hr className='footerHr' style={{width: '50%'}} />
             <div className='redesContacto'>
             <div>
