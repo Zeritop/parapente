@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 const VueloParapente = () => {
   return (
@@ -19,7 +18,7 @@ entre 7-15 min. Una vez aterrizados, coordinamos el envío de tus videos vía We
 mail o whatsapp. </li>
                 <li>Duración total de la experiencia: 1 hr aproximadamente.-</li>
             </ul>
-            <Link className='goTarifas' href="#tarifas">Ver Tarifas</Link>
+            <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
         </div>
     </div>
   )

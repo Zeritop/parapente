@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const LugarVuelo = () => {
   return (
@@ -14,7 +13,7 @@ const LugarVuelo = () => {
 
         </p>
         <div style={{display: 'flex', justifyContent:'center'}}>
-          <Link className='goTarifas' href="#tarifas">Ver Tarifas</Link>
+          <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
         </div>
         <div className='imgLugarDelVuelo'>
             <Image 
