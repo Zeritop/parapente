@@ -13,7 +13,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const [tarScript, setTarScript] = useState('');
+  const [tarScript, setTarScript] = useState(`gtag('event', 'conversion', {'send_to': ''});`);
   useEffect(() => {
     window.onscroll = function() {
       let url = window.location.href;
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       if (y == 5500 || urlHastag[1] == 'tarifas') {
         setTarScript(`gtag('event', 'conversion', {'send_to': 'AW-11376305852/N9c-CNOA2fIYELzN0rAq'});`)
       }
-      
+
     };
   }, [])
 
