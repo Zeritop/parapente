@@ -1,8 +1,14 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 
 const VueloSeguro = () => {
+    useEffect(()=>{
+        const scriptTar = document.createElement('script');
+        scriptTar.text = "gtag('event', 'conversion', {'send_to': 'AW-11376305852/i8g_CO-RifQYELzN0rAq'});";
+        document.head.appendChild(scriptTar);
+    },[])
   return (
-    <div style={{width: '100%'}}>
+    <div style={{width: '100%'}} id='vuelo-seguro'>
         <h2 style={{textAlign: 'center', fontSize: '40px'}}>Vuelo Seguro</h2>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', justifyContent: 'center'}}>
             <p style={{width: '80%', marginBottom: '5%'}}>En materia de seguridad, PARAPENTE CORDILLERA cuenta con asesoría permanente en Prevención de Riesgos. Considerando en esta materia, los aspectos  antes, durante y después del vuelo.
