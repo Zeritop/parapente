@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from './components/footer'
 import Slogan from './components/Slogan'
+import ReservaVuelo from './components/ReservaVuelo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <script dangerouslySetInnerHTML={{__html:`gtag('event', 'conversion', {'send_to': 'AW-11376305852/FYRICLme7_EYELzN0rAq'})`}} />
       </head>
       <Slogan />
+      <ReservaVuelo />
       <body className={inter.className}>
       <noscript>
         <iframe

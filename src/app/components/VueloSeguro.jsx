@@ -1,5 +1,7 @@
 'use client'
 import React, { useEffect } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const VueloSeguro = () => {
     useEffect(()=>{
@@ -34,7 +36,20 @@ const VueloSeguro = () => {
                 <li style={{fontSize: '20px'}}>Se verifica el estado del pasajero y se realizan las últimas fotos y videos acordados con anterioridad.</li>
                 <li style={{fontSize: '20px'}}>Se verifica el estado del equipo, estructura alar, líneas de suspensión, silla de pasajero y paracaídas de reserva.</li>
             </ul>
-            <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
+            <div>
+              <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
+              <Link className='reservaTuVuelo' href={"/whatsapp"}>
+                <div className='reservaTuVuelo-content'>
+                    Agenda tu vuelo
+                    <Image 
+                        src={'/images/whatsapp.png'}
+                        width={25}
+                        height={25}
+                        alt=''
+                    />          
+                </div>
+              </Link>
+            </div>
         </div> 
     </div>
   )

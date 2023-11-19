@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const LugarVuelo = () => {
   return (
@@ -13,7 +14,20 @@ const LugarVuelo = () => {
 
         </p>
         <div style={{display: 'flex', justifyContent:'center'}}>
-          <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
+         <div>
+            <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
+            <Link className='reservaTuVuelo' href={"/whatsapp"}>
+              <div className='reservaTuVuelo-content'>
+                  Agenda tu vuelo
+                  <Image 
+                      src={'/images/whatsapp.png'}
+                      width={25}
+                      height={25}
+                      alt=''
+                  />          
+              </div>
+            </Link>
+          </div>
         </div>
         <div className='imgLugarDelVuelo'>
             <Image 

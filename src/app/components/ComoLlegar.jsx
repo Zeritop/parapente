@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const ComoLlegar = () => {
   return (
@@ -20,7 +21,20 @@ const ComoLlegar = () => {
             <p>
             Al aproximar al parque te llamara la atención el muro escalada y la grúa amarilla del bungee, y el vuelo o aterrizaje de parapentes en el área. El Geopark dispone de estacionamientos.
             </p>
-            <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
+            <div>
+              <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
+              <Link className='reservaTuVuelo' href={"/whatsapp"}>
+                <div className='reservaTuVuelo-content'>
+                    Agenda tu vuelo
+                    <Image 
+                        src={'/images/whatsapp.png'}
+                        width={25}
+                        height={25}
+                        alt=''
+                    />          
+                </div>
+              </Link>
+            </div>
         </div>
             <div className='imgComoLlegar'>
                 <Image 

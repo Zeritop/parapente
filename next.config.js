@@ -19,6 +19,12 @@ const nextConfig = {
             destination: 'https://www.facebook.com/profile.php?id=100094284862217',
             permanent: false,
             basePath: false
+        },
+        {
+            source: '/tiktok',
+            destination: 'https://www.tiktok.com/@parapentecordillera?_t=8hOhOCD9IsX&_r=1',
+            permanent: false,
+            basePath: false
         }
     ]
   }

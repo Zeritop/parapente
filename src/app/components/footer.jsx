@@ -29,32 +29,45 @@ const footer = () => {
             RRSS
             <hr className='footerHr' style={{width: '50%'}} />
             <div className='redesContacto'>
-            <div>
-                <Link href={"/instagram"}>
-                    <Image 
-                        src={'/images/instagram.png'}
-                        width={50}
-                        height={50}
-                        alt=''
-                    />          
-                </Link>
+                <div>
+                    <Link href={"/instagram"}>
+                        <Image 
+                            src={'/images/instagram.png'}
+                            width={40}
+                            height={40}
+                            alt=''
+                        />          
+                    </Link>
+                </div>
+                <div>
+                    <Link href={"/whatsapp"}>
+                        <Image 
+                            src={'/images/whatsapp.png'}
+                            width={40}
+                            height={40}
+                            alt=''
+                        />          
+                    </Link>
+                </div>
             </div>
-            <div>
-                <Link href={"/whatsapp"}>
-                    <Image 
-                        src={'/images/whatsapp.png'}
-                        width={50}
-                        height={50}
-                        alt=''
-                    />          
-                </Link>
-            </div>
+            <div className='redesContacto'>
+            
             <div>
                 <Link href={"/facebook"}>
                     <Image 
                         src={'/images/facebook.png'}
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
+                        alt=''
+                    />          
+                </Link>
+            </div>
+            <div>
+                <Link href={"/tiktok"}>
+                    <Image 
+                        src={'/images/tiktok_logo.png'}
+                        width={40}
+                        height={40}
                         alt=''
                     />          
                 </Link>
