@@ -418,11 +418,14 @@ html {
   .inside-triangulo_texto{
     font-size: 30px;
     width: 100%;
+    background-image: url(/images/portada_celular.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .inside-triangulo_texto > h4{
     font-size: 40px;
     width: 100%;
-    margin-left: 30%;
+    /* margin-left: 20%; */
   }
   .container-mision-vision {
     padding-top: 5%;
