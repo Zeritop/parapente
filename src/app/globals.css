@@ -423,12 +423,20 @@ html {
     background-repeat: no-repeat;
   }
   .inside-triangulo_texto > h4{
-    font-size: 40px;
+    font-size: 45px;
     width: 100%;
+    margin-top: 20%;
+    color: #fff;
+    text-shadow: -6px -2px 6px #282f8f;
     /* margin-left: 20%; */
   }
   .container-mision-vision {
+    background-image: url('/images/fondo_sec_vision.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
     padding-top: 5%;
+    filter: saturate(180%);
   }
   .container-mision-vision > h2 {
     font-size: 40px;
@@ -436,8 +444,13 @@ html {
 
   .container-mision-vision > h4 {
     /* height: 100%; */
-    width: 90%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px transparent;
+    width: 100%;
     font-size: 14px;
+    color:#fff;
+    margin-top: 10%;
+    text-shadow: -2px -2px 6px #000;
   }
 
   .vuelo-parapente {
