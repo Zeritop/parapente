@@ -8,6 +8,14 @@ const footer = () => {
         <div className='footerTitulo'>
             <h4>Parapente Cordillera</h4>
         </div>
+        <div className='footerLogoWeb'>
+            <Image 
+                src={'/images/logo_f_n-removebg-hd.png'}
+                width={150}
+                height={150}
+                alt=''
+            />
+          </div>
         <div className='footerTitleCamp'>
             Cómo Llegar
             <hr className='footerHr' style={{width: '30%'}} />
@@ -29,6 +37,14 @@ const footer = () => {
             RRSS
             <hr className='footerHr' style={{width: '50%'}} />
             <div className='redesContacto'>
+                <div className='footerLogoMb'>
+                    <Image 
+                        src={'/images/logo_f_n-removebg-hd.png'}
+                        width={100}
+                        height={100}
+                        alt=''
+                    />
+                </div>
                 <div>
                     <Link href={"/instagram"}>
                         <Image 

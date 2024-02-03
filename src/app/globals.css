@@ -340,6 +340,11 @@ html {
   display: flex;
   align-items: center;
   font-size: 30px;
+  display: none;
+}
+
+.footerLogoMb {
+  display: none;
 }
 
 .footerComoLlegar {
@@ -378,7 +383,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 99999;
 }
 
 .reservaVuelo {
@@ -509,6 +514,15 @@ html {
   .footerTitulo > h4 {
     width: 100%;
     text-align: center;
+  }
+  .footerLogoWeb {
+    display: none;
+  }
+
+  .footerLogoMb {
+    display: block;
+    position: absolute;
+    left: 2%;
   }
   .footerComoLlegar {
     width: 100%;
