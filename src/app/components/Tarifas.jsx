@@ -13,7 +13,7 @@ const Tarifas = () => {
     <div className='container_tarifas' id='tarifas'>
         <h2 style={{textAlign: 'center', fontSize: '40px'}}>Tarifas producto - paquetes</h2>
         <Image
-            src={'/images/tarifas.png'}
+            src={'/images/new_tarifas.png'}
             width={1000}
             height={600}
             alt=''
