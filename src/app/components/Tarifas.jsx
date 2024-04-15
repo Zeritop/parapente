@@ -14,7 +14,7 @@ const Tarifas = () => {
       <div style={{width: '100%', height: '100%'}}>
         {/* <h2 style={{textAlign: 'center', fontSize: '40px'}}>Tarifas producto - paquetes</h2> */}
         <Image
-            src={'/images/img_tarifas_2.png'}
+            src={'/images/img_tarifas_3.png'}
             layout='responsive'
             width={1000}
             height={600}

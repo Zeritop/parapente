@@ -38,7 +38,7 @@ const ComoLlegar = () => {
         </div>
             <div className='imgComoLlegar'>
                 <Image 
-                    src={'/images/como_llegar.png'}
+                    src={'/images/como_llegar_2.png'}
                     fill
                     alt=""
                 />

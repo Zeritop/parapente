@@ -11,8 +11,8 @@ const footer = () => {
         <div className='footerLogoWeb'>
             <Image 
                 src={'/images/logo_f_n-removebg-hd.png'}
-                width={150}
-                height={150}
+                width={100}
+                height={100}
                 alt=''
             />
           </div>
@@ -49,8 +49,8 @@ const footer = () => {
                     <Link href={"/instagram"}>
                         <Image 
                             src={'/images/instagram.png'}
-                            width={40}
-                            height={40}
+                            width={25}
+                            height={25}
                             alt=''
                         />          
                     </Link>
@@ -59,8 +59,8 @@ const footer = () => {
                     <Link href={"/whatsapp"}>
                         <Image 
                             src={'/images/whatsapp.png'}
-                            width={40}
-                            height={40}
+                            width={25}
+                            height={25}
                             alt=''
                         />          
                     </Link>
@@ -72,8 +72,8 @@ const footer = () => {
                 <Link href={"/facebook"}>
                     <Image 
                         src={'/images/facebook.png'}
-                        width={40}
-                        height={40}
+                        width={25}
+                        height={25}
                         alt=''
                     />          
                 </Link>
@@ -82,8 +82,8 @@ const footer = () => {
                 <Link href={"/tiktok"}>
                     <Image 
                         src={'/images/tiktok_logo.png'}
-                        width={40}
-                        height={40}
+                        width={25}
+                        height={25}
                         alt=''
                     />          
                 </Link>
