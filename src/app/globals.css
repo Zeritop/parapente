@@ -337,6 +337,16 @@ html {
   width: 100%;
 }
 
+.footerLogoWeb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divFooterComoLlegar {
+  width: 20vw;
+}
+
 .footerTitulo {
   display: flex;
   align-items: center;
@@ -354,7 +364,8 @@ html {
 
 .footerTitleCamp {
   padding-top: 1%;
-  font-size: 20px;
+  font-size: 12px;
+  /* width: 100%; */
 }
 
 .footerHr {
@@ -510,6 +521,8 @@ html {
   .footer {
     flex-direction: column;
     position: relative;
+    justify-content: center;
+    align-items: center;
   }
 
   .footerTitulo > h4 {
@@ -520,10 +533,12 @@ html {
     display: none;
   }
 
+  .divFooterComoLlegar {
+    width: 100vw;
+  }
+
   .footerLogoMb {
-    display: block;
-    position: absolute;
-    left: 2%;
+    display: none;
   }
   .footerComoLlegar {
     width: 100%;
@@ -532,6 +547,7 @@ html {
 
   .footerTitleCamp{
     text-align: center;
+    width: 100%;
   }
   .footerHr {
     width: 80%!important;
@@ -595,12 +611,21 @@ html {
   .footer {
     flex-direction: column;
     position: relative;
+    justify-content: center;
+    align-items: center;
   }
-
   .footerTitulo > h4 {
     width: 100%;
     text-align: center;
   }
+  .footerLogoMb {
+    display: none;
+  }
+
+  .divFooterComoLlegar {
+    width: 100vw;
+  }
+
   .footerComoLlegar {
     width: 100%;
     text-align: center;
@@ -608,6 +633,7 @@ html {
 
   .footerTitleCamp{
     text-align: center;
+    width: 100%;
   }
   .footerHr {
     width: 80%!important;

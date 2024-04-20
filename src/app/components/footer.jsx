@@ -11,15 +11,15 @@ const footer = () => {
         <div className='footerLogoWeb'>
             <Image 
                 src={'/images/logo_f_n-removebg-hd.png'}
-                width={100}
-                height={100}
+                width={50}
+                height={50}
                 alt=''
             />
-          </div>
+        </div>
         <div className='footerTitleCamp'>
             Cómo Llegar
             <hr className='footerHr' style={{width: '30%'}} />
-            <div style={{marginTop: '2%'}}>
+            <div className='divFooterComoLlegar' style={{marginTop: '2%'}}>
                 <p className='footerComoLlegar'>Camino El Volcán (ruta G-25) 07820 </p>
                 <p className='footerComoLlegar'>Las Vizcachas – Santiago – Chile</p>
             </div>
@@ -27,9 +27,8 @@ const footer = () => {
         <div className='footerTitleCamp'>
             Contáctanos
             <hr className='footerHr' style={{width: '30%'}} />
-            <div style={{marginTop: '2%'}}>
+            <div className='divFooterComoLlegar' style={{marginTop: '2%'}}>
                 <p className='footerComoLlegar'>parapentecordillera@gmail.com</p>
-                <p className='footerComoLlegar'>+569 75215777</p>
                 <p className='footerComoLlegar'>Horario: Miércoles a Domingo 11:00 - 19:00</p>
             </div>
         </div>
@@ -65,10 +64,7 @@ const footer = () => {
                         />          
                     </Link>
                 </div>
-            </div>
-            <div className='redesContacto'>
-            
-            <div>
+                <div>
                 <Link href={"/facebook"}>
                     <Image 
                         src={'/images/facebook.png'}
@@ -88,7 +84,7 @@ const footer = () => {
                     />          
                 </Link>
             </div>
-        </div>
+            </div>
         </div>
     </div>
   )
