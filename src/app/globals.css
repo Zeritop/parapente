@@ -456,6 +456,15 @@ html {
   .vuelo-parapente {
     margin-top: 50%;
   }
+
+  #vueloParapenteMb{
+    background-image: url('/images/Foto_atardecer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding-top: 5%;
+    filter: saturate(180%);
+  }
   .vuelo-parapente > ul,p {
     font-size: 12px;
   }
@@ -464,28 +473,50 @@ html {
     font-size: 35px;
   }
 
+  #vuelo-seguro {
+    color: #973a0e;
+    background-image: url('/images/foto_vuelo_seguro.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding-top: 5%;
+    /* filter: saturate(180%); */
+  }
+
+  
   .trapecio-r {
     height: 120vh;
   }
-
+  
   .container-mini-gallery > video {
     width: 100%;
   }
-
+  
   .container_profile {
     flex-direction: column-reverse;
     justify-content: start;
-    width: 100%;
+    width: 45%;
+    position: absolute;
+    right: 4%;
+    top: 25%;
+    text-align: justify;
+  }
+  #nuestro-equipo {
+    background-image: url('/images/profile_parapente.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding-top: 5%;
+    filter: saturate(180%);
   }
 
   .container_profile > img {
-    height: 50%;
-    margin-left: 10%;
+    display: none;
   }
 
   .container_profile > p {
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
     margin-left: 0;
   }
 
@@ -553,6 +584,16 @@ html {
     width: 80%!important;
     margin-left: 10%;
   }
+
+  .link_mb_goTarifas {
+    color: white;
+    background-color: #008CBA;
+  }
+
+  .link_mb_reservaTuVuelo {
+    color: white;
+    background-color: #128C7E;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -583,6 +624,15 @@ html {
   .vuelo-parapente {
     margin-top: 20%;
     padding-top: 5%;
+  }
+
+  #vueloParapenteMb{
+    background-image: url('/images/Foto_atardecer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding-top: 5%;
+    filter: saturate(180%);
   }
 
   .vuelo-parapente > ul,p {
@@ -639,6 +689,16 @@ html {
     width: 80%!important;
     margin-left: 10%;
   }
+
+  .link_mb_goTarifas {
+    color: white;
+    background-color: #008CBA;
+  }
+
+  .link_mb_reservaTuVuelo {
+    color: white;
+    background-color: #128C7E;
+  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1024px){
@@ -668,5 +728,15 @@ html {
 
    .imgLugarDelVuelo {
     display: none;
+  }
+
+  .link_mb_goTarifas {
+    color: white;
+    background-color: #008CBA;
+  }
+
+  .link_mb_reservaTuVuelo {
+    color: white;
+    background-color: #128C7E;
   }
 }

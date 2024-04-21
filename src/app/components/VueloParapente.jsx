@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const VueloParapente = () => {
   return (
-    <div className='trapecio-r'>
+    <div id='vueloParapenteMb' className='trapecio-r'>
         <div className='vuelo-parapente'>
             <h2>Vuelo Parapente</h2>
             <p>Tu experiencia se inicia con tu llegada a nuestro centro de vuelos, reconocimiento de la
@@ -21,8 +21,8 @@ mail o whatsapp. </li>
                 <li>Duración total de la experiencia: 1 hr aproximadamente.-</li>
             </ul>
             <div>
-              <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
-              <Link className='reservaTuVuelo' href={"/whatsapp"}>
+              <a className='goTarifas link_mb_goTarifas' href="#tarifas">Ver Tarifas</a>
+              <Link className='reservaTuVuelo link_mb_reservaTuVuelo' href={"/whatsapp"}>
                 <div className='reservaTuVuelo-content'>
                     Agenda tu vuelo
                     <Image 

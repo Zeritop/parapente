@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Profile = () => {
   return (
-    <div className='trapecio-r'>
+    <div id='nuestro-equipo' className='trapecio-r'>
         <h2 className='profile_title'>Nuestro Equipo</h2>
         <div className='container_profile'>
             <Image 

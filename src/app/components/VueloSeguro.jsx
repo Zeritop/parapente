@@ -19,9 +19,9 @@ const VueloSeguro = () => {
             ANTES DEL VUELO:
             </h3>
             <ul style={{width: '80%', marginBottom: '5%'}}>
-                <li style={{fontSize: '20px'}}>Contamos con equipos de excelente calidad, con sus respectivos chequeos y testeos reglamentarios, de acuerdo a las normas y horas de vuelo.</li>
-                <li style={{fontSize: '20px'}}>Nuestros pilotos cuentan con una vasta experiencia en pilotaje, sus credenciales y documentación al día, de acuerdo a las exigencias de la dirección general de aeronáutica civil (DGAC).</li>
-                <li style={{fontSize: '20px'}}>Antes del despegue, nuestros pilotos, realizan un chequeo general del equipo de vuelo, una inducción al pasajero, indicando las medidas de seguridad y las maniobras necesarias para un despegue agradable y seguro.</li>
+                <li style={{fontSize: '12px'}}>Contamos con equipos de excelente calidad, con sus respectivos chequeos y testeos reglamentarios, de acuerdo a las normas y horas de vuelo.</li>
+                <li style={{fontSize: '12px'}}>Nuestros pilotos cuentan con una vasta experiencia en pilotaje, sus credenciales y documentación al día, de acuerdo a las exigencias de la dirección general de aeronáutica civil (DGAC).</li>
+                <li style={{fontSize: '12px'}}>Antes del despegue, nuestros pilotos, realizan un chequeo general del equipo de vuelo, una inducción al pasajero, indicando las medidas de seguridad y las maniobras necesarias para un despegue agradable y seguro.</li>
             </ul>
             <h3 style={{fontSize: '25px'}}>
                 DURANTE EL VUELO:
@@ -33,12 +33,12 @@ const VueloSeguro = () => {
                 DESPUES DEL VUELO:
             </h3>
             <ul style={{width: '80%', marginBottom: '5%'}}>
-                <li style={{fontSize: '20px'}}>Se verifica el estado del pasajero y se realizan las últimas fotos y videos acordados con anterioridad.</li>
-                <li style={{fontSize: '20px'}}>Se verifica el estado del equipo, estructura alar, líneas de suspensión, silla de pasajero y paracaídas de reserva.</li>
+                <li style={{fontSize: '12px'}}>Se verifica el estado del pasajero y se realizan las últimas fotos y videos acordados con anterioridad.</li>
+                <li style={{fontSize: '12px'}}>Se verifica el estado del equipo, estructura alar, líneas de suspensión, silla de pasajero y paracaídas de reserva.</li>
             </ul>
             <div>
-              <a className='goTarifas' href="#tarifas">Ver Tarifas</a>
-              <Link className='reservaTuVuelo' href={"/whatsapp"}>
+              <a className='goTarifas link_mb_goTarifas' href="#tarifas">Ver Tarifas</a>
+              <Link className='reservaTuVuelo link_mb_reservaTuVuelo' href={"/whatsapp"}>
                 <div className='reservaTuVuelo-content'>
                     Agenda tu vuelo
                     <Image 
