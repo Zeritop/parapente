@@ -11,7 +11,7 @@ const Tarifas = () => {
   }, [])
   return (
     <div className='container_tarifas' id='tarifas'>
-      <div style={{width: '100%', height: '100%'}}>
+      <div id='tarifas_MB' style={{width: '100%', height: '100%'}}>
         {/* <h2 style={{textAlign: 'center', fontSize: '40px'}}>Tarifas producto - paquetes</h2> */}
         <Image
             src={'/images/img_tarifas.png'}
@@ -21,6 +21,15 @@ const Tarifas = () => {
             alt=''
         />
       </div>
+        <div id='tarifas_WEB' style={{width: '100%', height: '100%'}}>
+          <Image
+              src={'/images/img_tarifas_3.png'}
+              layout='responsive'
+              width={1000}
+              height={600}
+              alt=''
+          />
+        </div>
         <div className='containerVideoTarifas'>
             <ReactPlayer url={'/videos/video-plano-web.MP4'} controls width='100%' />
             <ReactPlayer url={'/videos/video360web.MP4'} controls width='100%' />

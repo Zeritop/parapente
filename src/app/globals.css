@@ -289,6 +289,14 @@ html {
   align-items: center;
 }
 
+#tarifas_WEB {
+  display: block;
+}
+
+#tarifas_MB {
+  display: none;
+}
+
 .containerComoLlegar {
   display: flex;
   flex-direction: column;
@@ -537,6 +545,14 @@ html {
     width: 100%;
   }
 
+  #tarifas_WEB {
+    display: none;
+  }
+
+  #tarifas_MB {
+    display: block;
+  }
+
   .imgLugarDelVuelo {
     display: none;
   }
@@ -655,6 +671,14 @@ html {
     width: 100%;
   }
 
+  #tarifas_WEB {
+    display: none;
+  }
+
+  #tarifas_MB {
+    display: block;
+  }
+
   .imgLugarDelVuelo {
     display: none;
   }
@@ -738,5 +762,13 @@ html {
   .link_mb_reservaTuVuelo {
     color: white;
     background-color: #128C7E;
+  }
+
+  #tarifas_WEB {
+    display: none;
+  }
+
+  #tarifas_MB {
+    display: block;
   }
 }
