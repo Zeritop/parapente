@@ -23,7 +23,7 @@ const Tarifas = () => {
       </div>
         <div id='tarifas_WEB' style={{width: '100%', height: '100%'}}>
           <Image
-              src={'/images/img_tarifas_3.png'}
+              src={'/images/img_tarifas_4.png'}
               layout='responsive'
               width={1000}
               height={600}
