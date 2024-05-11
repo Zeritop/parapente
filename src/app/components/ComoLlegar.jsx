@@ -1,10 +1,19 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 const ComoLlegar = () => {
+
+  useEffect(() => {
+    if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i) ) {
+      let div = document.getElementById("ComoLlegarMB")
+      div.className = ""
+    }
+  }, [])
+
   return (
-    <div className='trapecio-r'>
+    <div id='ComoLlegarMB' className='trapecio-r'>
         <div className='containerComoLlegar'>
             <h2>Donde estamos? Cómo llegar?</h2>
             <p style={{textAlign: 'center'}}>Camino El Volcán (ruta G-25) 07820 – Las Vizcachas – Santiago – Chile</p>
@@ -38,7 +47,7 @@ const ComoLlegar = () => {
         </div>
             <div className='imgComoLlegar'>
                 <Image 
-                    src={'/images/como_llegar_2.png'}
+                    src={'/images/como_llegar_3.png'}
                     fill
                     alt=""
                 />
