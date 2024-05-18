@@ -301,8 +301,9 @@ html {
   background-image: url(/images/como_llegar_4.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   color: transparent;
-  height: 120vh;
+  height: 150vh;
 }
 
 .containerComoLlegar {
