@@ -15,8 +15,8 @@ const ComoLlegar = () => {
   return (
     <div id='ComoLlegarMB'>
         <div className='containerComoLlegar'>
-            {/* <h2>Donde estamos? Cómo llegar?</h2>
-            <p style={{textAlign: 'center'}}>Camino El Volcán (ruta G-25) 07820 – Las Vizcachas – Santiago – Chile</p>
+             <h2>Donde estamos? Cómo llegar?</h2>
+           {/* <p style={{textAlign: 'center'}}>Camino El Volcán (ruta G-25) 07820 – Las Vizcachas – Santiago – Chile</p>
             <p> 
                 Puedes llegar de 2 maneras tomando como referencia de inicio Metro – Tobalaba (Providencia): 
             </p>
