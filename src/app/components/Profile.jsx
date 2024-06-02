@@ -1,7 +1,16 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 const Profile = () => {
+
+  useEffect(() => {
+    if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i) ) {
+      let div = document.getElementById("nuestro-equipo")
+      div.className = ""
+    }
+  }, [])
+
   return (
     <div id='nuestro-equipo' className='trapecio-r'>
         <h2 className='profile_title'>Nuestro Equipo</h2>
