@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
         <script async src='https://www.googletagmanager.com/gtag/js?id=AW-11376305852'></script>
         <script dangerouslySetInnerHTML={{__html:`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11376305852');`}} />
         <script dangerouslySetInnerHTML={{__html:`gtag('event', 'conversion', {'send_to': 'AW-11376305852/FYRICLme7_EYELzN0rAq'})`}} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <Slogan />
       <ReservaVuelo />
