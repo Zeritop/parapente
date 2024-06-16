@@ -515,9 +515,10 @@ html {
     flex-direction: column-reverse;
     justify-content: start;
     width: 45%;
-    position: absolute;
-    right: 4%;
-    top: 25%;
+    position: relative;
+    left: 50%;
+    margin-top: 30%;
+    /* top: 50%; */
     text-align: justify;
   }
   #nuestro-equipo {
