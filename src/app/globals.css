@@ -523,12 +523,12 @@ html {
   #nuestro-equipo {
     background-image: url('/images/profile_parapente.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center center;
     padding-top: 5%;
     -webkit-filter: saturate(180%);
             filter: saturate(180%);
-    height: 100vh;
+    min-height: 100vh;
     margin-bottom: 4%;
   }
 
